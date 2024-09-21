@@ -1,0 +1,51 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.link{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.linkinzinho{
+    text-decoration: none;
+    background-color: rgb(120, 206, 206);
+}
+#logo{
+    width:10vh ;
+}
+#imagem{
+    width: 30vh;
+}
+.main{
+    display: flex;
+    background-color:rgb(195, 164, 224);
+    justify-content: space-around;
+    margin: 0;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(146, 107, 182);
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+.text p{
+    font-size: 15px;
+}
